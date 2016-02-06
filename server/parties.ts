@@ -1,3 +1,6 @@
+/// <reference path="../typings/angular2/core.d.ts" />
+/// <reference path="../typings/Counts/Counts.d.ts" />
+
 import {Parties} from 'collections/parties';
 
 function buildQuery(partyId: string, location: string): Object {
