@@ -1,12 +1,3 @@
-/// <reference path="../typings/angular2-meteor/angular2-meteor.d.ts" />
-/// <reference path="../typings/ng2-meteor-accounts/ng2-meteor-accounts.d.ts" />
-/// <reference path="../typings/angular2/angular2.d.ts" />
-/// <reference path="../typings/angular2/router.d.ts" />
-/// <reference path="../typings/angular2/core.d.ts" />
-/// <reference path="../typings/Counts/Counts.d.ts" />
-/// <reference path="../packages/socially-browser/client/login/login.ts" />
-/// <reference path="../packages/socially-mobile/client/login/login-page.ts" />
-
 import {Parties} from './parties';
 
 function getContactEmail(user: Meteor.User): string {
